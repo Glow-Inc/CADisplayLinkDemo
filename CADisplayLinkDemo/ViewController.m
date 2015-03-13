@@ -36,7 +36,7 @@
     self.blockView.center = CGPointMake(self.blockView.center.x, from);
 
     [self.blockView startAnimationFrom:from to:to];
-    [UIView animateWithDuration:1.5 delay:0 usingSpringWithDamping:0.85 initialSpringVelocity:0 options:0 animations:^{
+    [UIView animateWithDuration:1 delay:0 usingSpringWithDamping:0.85 initialSpringVelocity:0 options:0 animations:^{
         self.blockView.center = CGPointMake(self.blockView.center.x, to);
     } completion:^(BOOL finished) {
         [self.blockView completeAnimation];

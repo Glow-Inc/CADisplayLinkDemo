@@ -17,7 +17,7 @@
 
 @implementation BlockView
 
-- (void)startAnimationFrom:(CGFloat)from to:(CGFloat)to;
+- (void)startAnimationFrom:(CGFloat)from to:(CGFloat)to
 {
     self.from = from;
     self.to = to;
